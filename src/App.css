@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-wrapper {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button , input {
+  padding: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input:focus {
+  background-color: #788bb6;
+
 }
